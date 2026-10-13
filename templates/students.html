@@ -1,0 +1,21 @@
+
+
+{% extends "base.html" %}
+
+{% block title %}Our Students{% endblock %}
+
+{% block content %}
+
+<section class="card">
+    <h1>Our Students</h1>
+
+    <p>Here is our list of students:</p>
+
+    <ul class="student-list">
+        {% for student in students %}
+            <li>{{ student }}</li>
+        {% endfor %}
+    </ul>
+</section>
+
+{% endblock %}

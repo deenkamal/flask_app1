@@ -1,0 +1,127 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f7fb;
+    color: #222;
+    line-height: 1.6;
+}
+
+.navbar {
+    background: #172554;
+    color: white;
+    padding: 18px 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.logo {
+    color: white;
+    font-size: 23px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.nav-links {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-links a:hover {
+    color: #93c5fd;
+}
+
+.container {
+    width: 84%;
+    max-width: 1100px;
+    margin: 40px auto;
+    min-height: 65vh;
+}
+
+.hero {
+    background: #dbeafe;
+    padding: 65px 25px;
+    text-align: center;
+    border-radius: 14px;
+}
+
+.hero h1 {
+    color: #172554;
+    font-size: 38px;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    margin-bottom: 25px;
+}
+
+.btn {
+    display: inline-block;
+    background: #2563eb;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 6px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background: #1d4ed8;
+}
+
+.card {
+    background: white;
+    margin-top: 25px;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 3px 12px #00000010;
+}
+
+.card h1,
+.card h2 {
+    color: #172554;
+    margin-bottom: 15px;
+}
+
+.student-list {
+    margin: 20px 0 0 25px;
+}
+
+.student-list li {
+    padding: 8px;
+}
+
+footer {
+    text-align: center;
+    background: #172554;
+    color: white;
+    padding: 18px;
+}
+
+@media (max-width: 600px) {
+    .navbar {
+        flex-direction: column;
+    }
+
+    .hero h1 {
+        font-size: 28px;
+    }
+
+    .container {
+        width: 92%;
+    }
+}
